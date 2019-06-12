@@ -1,0 +1,179 @@
+.container-fluid {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.heading {
+  padding-bottom: 30px;
+}
+
+.card {
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.card-img-top {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  align: align-items-center;
+}
+
+.card-text {
+  font-family: 'Amiri', serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 100%;
+  text-align: center;
+  color: #737373;
+  margin-top: -25px;
+}
+
+.desc {
+  font-style: normal;
+}
+
+.card-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.pagetitle {
+  font-size: 2.6rem;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.slogan {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+}
+
+.heading_one {
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 80%;
+}
+
+.subtitle {
+  font-family: 'Amiri', serif;
+  font-weight: 100;
+  font-size: 1.125rem;
+  font-style: italic;
+  text-align: center;
+  line-height: 80%;
+  margin-top: -1.5rem;
+}
+
+.container-fluid {
+  display: block;
+  background-image: url("http://www.yatzek.pl/top.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.container .port {
+  background-color: #f7f7f7;
+}
+
+footer .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 2px;
+}
+
+.first {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 8;
+      flex: 8;
+}
+
+.second {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 4;
+      flex: 4;
+  padding-left: 180px;
+}
+
+.fab {
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section {
+  background-color: #f7f7f7;
+}
+
+.bg {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-color: #fed136;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  padding: 10px 10px;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
